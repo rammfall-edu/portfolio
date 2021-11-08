@@ -1,0 +1,275 @@
+body,
+html {
+    font-family: 'Libre Franklin', Arial, sans-serif;
+    font-size: 10px;
+}
+
+.container {
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.hero {
+    padding-top: 93px;
+    padding-bottom: 30px;
+    min-height: 100vh;
+    background-image: url("../img/hero.jpg");
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero > div {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.logo {
+    font-size: 2.4rem;
+    line-height: 1.21;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+nav a {
+    font-size: 1.8rem;
+    line-height: 1.22;
+}
+
+.hero-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-content h1 {
+    font-size: 6.4rem;
+    line-height: 1.22;
+    margin-bottom: 26px;
+}
+
+.hero-content p {
+    font-size: 2.4rem;
+    line-height: 1.21;
+    margin-bottom: 106px;
+}
+
+.hero-content a {
+    text-decoration: underline;
+    font-size: 1.8rem;
+    line-height: 1.22;
+}
+
+.about {
+    padding: 93px 0 115px;
+}
+
+h2 {
+    font-size: 2.4rem;
+    line-height: 1.22;
+    color: #333333;
+    font-weight: bold;
+}
+
+.about h2 {
+    margin-bottom: 76px;
+}
+
+.about p {
+    color: #333333;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    margin-bottom: 30px;
+}
+
+.about p:last-child {
+    margin-bottom: 0;
+}
+
+.skills {
+    padding: 93px 0 145px;
+    background-color: #FFFAF2;
+}
+
+.skills h2 {
+    margin-bottom: 86px;
+}
+
+.skills-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 125px;
+}
+
+.skills-wrapper img {
+    width: 350px;
+}
+
+.skills-wrapper ul {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skills-wrapper li {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.skills-wrapper li:first-of-type {
+    padding-bottom: 45px;
+}
+
+.skills-row {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.skills-row-name {
+    width: 130px;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.2;
+    color: #333333;
+}
+
+.skills-row-value {
+    color: #333333;
+    font-size: 1.8rem;
+    line-height: 1.2;
+    flex-grow: 1;
+}
+
+.skills-progressbar {
+    height: 24px;
+    background-color: #F5D6AB;
+    overflow: hidden;
+}
+
+.skills-progressbar-track {
+    height: 100%;
+    background-color: #C66C49;
+    width: 33%;
+}
+
+.portfolio {
+    padding: 93px 0 140px;
+}
+
+.portfolio h2 {
+    margin-bottom: 86px;
+}
+
+.portfolio-wrapper {
+    display: flex;
+    gap: 125px;
+    flex-shrink: 0;
+}
+
+.portfolio-images {
+    display: flex;
+    padding-top: 65px;
+    gap: 30px;
+}
+
+.portfolio-col {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.portfolio-col:first-of-type {
+    width: 350px;
+}
+
+.portfolio-col:last-of-type {
+    width: 255px;
+}
+
+.portfolio-col img {
+    width: 100%;
+}
+
+.portfolio-content {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-content h3 {
+    font-size: 1.8rem;
+    line-height: 1.2;
+    color: #333333;
+    font-weight: 600;
+    margin-bottom: 48px;
+}
+
+.portfolio-content p {
+    font-size: 1.8rem;
+    line-height: 1.45;
+    color: #333333;
+    flex-grow: 1;
+}
+
+.buttons {
+    display: flex;
+    gap: 18px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+
+footer {
+    background-color: #FFFAF2;
+    padding: 93px 0 190px;
+}
+
+footer h2 {
+    margin-bottom: 51px;
+}
+
+.footer-wrapper {
+    display: flex;
+}
+
+
+.footer-wrapper ul {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.footer-wrapper a {
+    font-size: 1.8rem;
+    line-height: 1.2;
+}
